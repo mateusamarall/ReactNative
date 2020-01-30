@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Clock from './src/components/clock/index';
 
 function Ola(props) {
 	return (
@@ -8,10 +9,19 @@ function Ola(props) {
 		</View>
 	);
 }
+function Clockapp() {
+	return (
+		<View>
+			<Clock />
+		</View>
+	);
+}
+
 export default function App() {
 	return (
 		<View style={styles.container}>
 			<Ola name=' Dev' />
+			<Clockapp />
 		</View>
 	);
 }
