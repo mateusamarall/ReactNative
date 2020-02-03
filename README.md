@@ -3,7 +3,7 @@ repository to study react native following the<a href="https://www.youtube.com/p
 Developer Plus's Playlist. 
 </a> I will update everyday things here learn there.
 
-# :rocket: Techs (for now)
+# :rocket: Techs
 React-Native <br/>
 Expo <br/>
 yarn <br/>
