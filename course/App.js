@@ -1,39 +1,22 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Clock from './src/components/clock/index';
-
-function Ola(props) {
-	return (
-		<View style={styles.message}>
-			<Text>Ola{props.name}!</Text>
-		</View>
-	);
-}
-function Clockapp() {
-	return (
-		<View>
-			<Clock />
-		</View>
-	);
-}
+import Ola from './src/components/hello/index';
+import FlexApp from './src/components/flexbox/index';
 
 export default function App() {
 	return (
 		<View style={styles.container}>
 			<Ola name=' Dev' />
-			<Clockapp />
+			<Clock />
+			<FlexApp />
 		</View>
 	);
 }
 
 const styles = StyleSheet.create({
-	message: {
-		alignItems: 'center'
-	},
 	container: {
 		flex: 1,
-		backgroundColor: '#fff',
-		alignItems: 'center',
-		justifyContent: 'center'
+		backgroundColor: '#fff'
 	}
 });
