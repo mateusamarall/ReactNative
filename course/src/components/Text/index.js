@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, TextInput, Text } from 'react-native';
+import { View, TextInput, Text, StyleSheet } from 'react-native';
 
 export default class TextChangeApp extends Component {
 	constructor(props) {
@@ -8,13 +8,13 @@ export default class TextChangeApp extends Component {
 	}
 	render() {
 		return (
-			<View style={{ padding: 40 }}>
+			<View style={{ padding: 40, justifyContent: 'center' }}>
 				<TextInput
-					style={{ height: 50, fontSize: 20 }}
+					style={{ paddingTop: 10, fontSize: 20 }}
 					placeholder='Digite aqui para traduzir!'
 					onChangeText={(text) => this.setState({ text })}
 				/>
-				<Text style={{ padding: 10, fontSize: 10 }}>
+				<Text style={{ padding: 2, fontSize: 5 }}>
 					{this.state.text
 						.split(' ')
 						.map((word) => (word ? ' u are awesome' : ''))}

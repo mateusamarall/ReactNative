@@ -20,7 +20,8 @@ class Clock extends Component {
 }
 const styles = StyleSheet.create({
 	hour: {
-		fontSize: 25
+		fontSize: 25,
+		alignSelf: 'center'
 	}
 });
 

@@ -10,6 +10,8 @@ export default function Ola(props) {
 
 const styles = StyleSheet.create({
 	message: {
-		alignItems: 'center'
+		fontSize: 15,
+		paddingVertical: 30,
+		alignSelf: 'center'
 	}
 });

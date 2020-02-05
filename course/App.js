@@ -4,12 +4,14 @@ import Clock from './src/components/clock/index';
 import Ola from './src/components/hello/index';
 import FlexApp from './src/components/flexbox/index';
 import TextChangeApp from './src/components/Text/index';
+import ButtonApp from './src/components/ButtonTouch/index';
 export default function App() {
 	return (
 		<View style={styles.container}>
 			<Ola name=' Dev' />
 			<Clock />
 			<TextChangeApp />
+			<ButtonApp />
 		</View>
 	);
 }
@@ -17,8 +19,7 @@ export default function App() {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
+		alignItems: 'stretch',
 		backgroundColor: '#fff'
 	}
 });
