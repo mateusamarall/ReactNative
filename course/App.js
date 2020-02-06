@@ -6,11 +6,12 @@ import FlexApp from './src/components/flexbox/index';
 import TextChangeApp from './src/components/Text/index';
 import ButtonApp from './src/components/ButtonTouch/index';
 import ScrollViewApp from './src/components/ScrollView/index';
+import FlatListApp from './src/components/FlatList/index';
 export default function App() {
 	return (
 		<View style={styles.container}>
 			<TextChangeApp />
-			<ScrollViewApp />
+			<FlatListApp />
 		</View>
 	);
 }
