@@ -7,11 +7,12 @@ import TextChangeApp from './src/components/Text/index';
 import ButtonApp from './src/components/ButtonTouch/index';
 import ScrollViewApp from './src/components/ScrollView/index';
 import FlatListApp from './src/components/FlatList/index';
+import SectionListApp from './src/components/SectionList/index'
 export default function App() {
 	return (
 		<View style={styles.container}>
 			<TextChangeApp />
-			<FlatListApp />
+			<SectionListApp/>
 		</View>
 	);
 }
