@@ -8,13 +8,31 @@ const Routes = createAppContainer(
 createStackNavigator(
   {
     Home:{
-      screen: HomeScreen
+      screen: HomeScreen,
+      navigationOptions:{
+        headerStyle:{
+          backgroundColor:'#f45111'
+        },
+        headerTintColor:'#fff'
+      }
     },
     Profile:{
-      screen:ProfileScreen
+      screen:ProfileScreen,
+      navigationOptions:{
+        headerStyle:{
+          backgroundColor:'#f45111'
+        },
+        headerTintColor:'#fff'
+      }
     },
     Detail:{
-      screen:DetailScreen
+      screen:DetailScreen,
+      navigationOptions:{
+        headerStyle:{
+          backgroundColor:'#f45111'
+        },
+        headerTintColor:'#fff'
+      }
     }
   },
   {

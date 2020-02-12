@@ -9,7 +9,7 @@ import{View, Text,Button} from 'react-native';
         </View>
         <Button 
         title='Ir para tela perfil'
-        onPress={() => this.props.navigation.navigate('Profile')}
+        onPress={() => this.props.navigation.navigate('Profile',{name: 'Mateus', age:18})}
         />
       </View>
     )
