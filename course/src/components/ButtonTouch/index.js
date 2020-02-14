@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, Button, Alert, StyleSheet } from 'react-native';
+import { View, Button, Alert, StyleSheet } from 'react-native';
 
 export default class ButtonApp extends Component {
 	onPressButton() {

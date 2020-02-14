@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import{View, Text,Button} from 'react-native';
- class HomeScreen extends Component{
+export default class HomeScreen extends Component{
   render(){
     return(
       <View style={{flex:1, justifyContent:'center'}}>
@@ -15,4 +15,3 @@ import{View, Text,Button} from 'react-native';
     )
   }
 }
-export default HomeScreen;

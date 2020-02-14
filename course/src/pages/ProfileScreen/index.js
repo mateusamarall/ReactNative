@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import{View, Text,Button} from 'react-native';
 
- class ProfileScreen extends Component{
+export default class ProfileScreen extends Component{
    
   render(){
     const name = this.props.navigation.getParam('name', 'anonimo');
@@ -21,4 +21,3 @@ import{View, Text,Button} from 'react-native';
     )
   }
 }
-export default ProfileScreen;

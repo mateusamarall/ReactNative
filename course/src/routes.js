@@ -1,8 +1,8 @@
 import {createAppContainer} from 'react-navigation';
 import{createStackNavigator} from 'react-navigation-stack';
-import HomeScreen from './components/HomeScreen/index';
-import ProfileScreen from './components/ProfileScreen/index';
-import DetailScreen from './components/DetailScreen/index'
+import HomeScreen from './pages/HomeScreen/index';
+import ProfileScreen from './pages/ProfileScreen/index';
+import DetailScreen from './pages/DetailScreen/index';
 
 const Routes = createAppContainer(
 createStackNavigator(
